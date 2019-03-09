@@ -1,20 +1,7 @@
-<p align="center">
-  <a href="https://github/openbiox/">
-    <img
-      alt="openbiox"
-      src="./static/img/logo-long.png"
-      width="400"
-    />
-  </a>
-</p>
 
-## openbiox-wiki
+# openbiox-wiki <img src="static/img/logo-long.png" align="right" alt="openbiox" width="200"/>
 
-<p align="center">
-  <a href="https://github.com/openbiox/openbiox-wiki"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"></a>
-  <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/>
-  <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
-</p>
+<img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
 
 The knowledge repository of [openbiox](https://openbiox.org) orgnization, a community-driven bioinformatics innovation collaboration Group in China.
 
