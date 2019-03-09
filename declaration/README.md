@@ -9,7 +9,7 @@ openbiox 公约
 
 ## 宗旨
 
-`Inventing, optimizing, sharing`
+`Inventing, Optimizing, Sharing`
 
 ## 目标
 
