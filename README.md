@@ -24,4 +24,4 @@
 
 ## 补充说明
 
-国内用户亦可访问 [openbiox-wiki 语雀同步版本](https://www.yuque.com/openbiox/wiki),速度稳定方便访问且阅读体验优秀。
+国内用户亦可访问 [openbiox-wiki 语雀同步版本](https://www.yuque.com/openbiox/wiki)，速度稳定方便访问且阅读体验优秀。
