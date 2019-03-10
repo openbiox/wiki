@@ -1,22 +1,23 @@
-
 # openbiox-wiki <img src="static/img/logo-long.png" align="right" alt="openbiox" width="200"/>
 
 <img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
 
-The knowledge repository of [openbiox](https://openbiox.org) orgnization, a community-driven bioinformatics innovation collaboration Group in China.
+[中文版](./README.md)|[英文版](./README-EN.md)
 
-The first version of the declaration of openbiox can be found [here](./declaration).
+这是[openbiox小组](https://openbiox.org) （中国第一个社区驱动的生物信息学创新协作组）的知识仓库。
 
-## Maintainer
+ openbiox小组公约第一版请见[这里](./declaration)。
 
-Wiki-group of openbiox orgnization.
+ openbiox小组例会纪要请见[这里](./minutes)。
 
-## How to contribute?
+## 维护
 
-Please fork the GitHub [openbiox-wiki
-repository](https://github.com/openbiox/openbiox-wiki), modify it, and
-submit a pull request to us.
+ openbiox小组wiki分队
 
-## License
+## 如何修改并提交贡献
+
+请fork组织仓库[openbiox-wiki](https://github.com/openbiox/openbiox-wiki), 修改README.Rmd文件，并在本地执行render.R文件，确认无误后提交Pull requests，审核通过即可合并更新。
+
+## 版权
 
 [![](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
