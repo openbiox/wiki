@@ -5,7 +5,7 @@
 
 [English](./README-EN.md)|[Chinese](./README.md)
 
-The knowledge repository of [openbiox](https://openbiox.org) orgnization, a community-driven bioinformatics innovation collaboration Group in China.
+The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration Group in China.
 
 The first version of the declaration of openbiox can be found [here](./declaration).
 
