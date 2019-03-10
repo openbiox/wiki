@@ -21,3 +21,7 @@
 ## 版权
 
 [![](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+## 补充说明
+
+国内用户亦可访问 [openbiox-wiki 语雀同步版本](https://www.yuque.com/openbiox/wiki),速度稳定方便访问且阅读体验优秀。
