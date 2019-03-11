@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
 
-[中文版](./README.md)|[英文版](./README-EN.md)
+[中文版](./README.md)|[English Vsrsion](./README-EN.md)
 
 这是[openbiox小组](https://openbiox.org) （中国第一个社区驱动的生物信息学创新协作组）的知识仓库。
 
