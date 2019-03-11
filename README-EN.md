@@ -3,7 +3,7 @@
 
 <img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
 
-[English](./README-EN.md)|[Chinese](./README.md)
+[English Version](./README-EN.md)|[中文版](./README.md)
 
 The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration Group in China.
 
