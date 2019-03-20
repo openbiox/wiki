@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
-if (!requireNamespace("pacman"))
+if (!requireNamespace("pacman")){
   install.packages("pacman")
+}
 pacman::p_load(rmarkdown, knitr)
-
-rmarkdown::render('./README.Rmd', encoding = "UTF-8")
+rmarkdown::render('./README.Rmd', output_format='all',encoding = "UTF-8")

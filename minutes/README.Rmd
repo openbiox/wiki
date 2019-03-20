@@ -2,6 +2,7 @@
 title: "minutes"
 output:
   md_document: default
+  latex_document: default
 ---
 
 ```{r setup, include=FALSE}
