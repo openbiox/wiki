@@ -10,6 +10,8 @@ openbiox小组公约第一版请见[这里](./declaration)。
 
 openbiox小组例会纪要请见[这里](./minutes)。
 
+openbiox小组例行事项请见[这里](./routine)。
+
 ## 维护
 
  openbiox小组wiki分队
