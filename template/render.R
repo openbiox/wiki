@@ -5,7 +5,7 @@ library(rmarkdown)
 library(logging)
 library(sqldf)
 
-operate_wiki <- function(logger, x, ..., log_file="wiki_operation.log") {
+wiki_sqldf <- function(logger, x, ..., log_file="wiki_operation.log") {
   # 参数x: 	SQL语句
   # Character string representing an SQL select statement or character vector whose 
   # components each represent a successive SQL statement to be executed. 
@@ -23,7 +23,7 @@ operate_wiki <- function(logger, x, ..., log_file="wiki_operation.log") {
   sqldf(x=x, ...)
 }
 
-render_wiki <- function(tb, title, output_file, template_rmd="template.Rmd", html_preview=FALSE) {
+wiki_render <- function(tb, title, output_file, template_rmd="template.Rmd", html_preview=FALSE) {
   tb <- tb
   title <- title
   rmarkdown::render('template.Rmd', output_file = output_file,
@@ -37,20 +37,20 @@ tb <- data.frame(a = c(1:10), b = c(1:10), c = c(1:10))
 
 # 如果不需要进行修改，直接输出为表格形式 （第一次整理）
 TITLE <- "测试日志"
-render_wiki(tb, TITLE, "test_file.md", html_preview = TRUE) 
+wiki_render(tb, TITLE, "test_file.md", html_preview = TRUE) 
 # 这里会生成markdown文件，然后也设置预览, 查看生成的html文件
 # 然后将数据以RData格式保存
 save(tb, file="tb.RData")
 
 # 如果需要更改（即进行更新）
-# 先使用operate_wiki函数
+# 先使用wiki_sqldf函数
 # 该函数执行操作并保存操作日志
 load(file="tb.RData")
-tb <- operate_wiki(logger="Shixiang Wang", x = "select * from tb limit 5")
+tb <- wiki_sqldf(logger="Shixiang Wang", x = "select * from tb limit 5")
 
 # 现在只保留5行（即更新了）
 # 然后再更新markdown文件
-render_wiki(tb, TITLE, "test_file.md") 
+wiki_render(tb, TITLE, "test_file.md") 
 
 
 
