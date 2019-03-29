@@ -5,7 +5,6 @@
 已经培养了近1万名生信工程师，完成全套生物信息学入门及进阶视频教程，播放地址是：https://space.bilibili.com/338686099 
 目标培养10万名生信工程师，2019全国巡讲至少到达60个城市，详见：https://mp.weixin.qq.com/s/E9ykuIbc-2Ja9HOY0bn_6g  
 https://static.dingtalk.com/media/lALPAuoR5z1wDQ3NA_DNAoA_640_1008.png
-  
 ### 赵龙飞  
 郑州大学生物信息学博士  
 ### 许志骁  
@@ -74,3 +73,9 @@ https://static.dingtalk.com/media/lALPAuoR5z1wDQ3NA_DNAoA_640_1008.png
 张楠 哈尔滨医科大学生物信息学硕士  
 ### 王慧美  
 王慧美 复旦大学神经生物学硕士  
+### 李剑锋  
+openbiox 小组发起人，生信技能树社区核心成员，是开源生物信息学和开放科学思想的坚定支持者、传播者和践行者。上海交通大学医学院附属瑞金医院，医学基因组学国家重点实验室，上海血液学研究所博士生，主要研究方向是生物信息学和白血病。个人博客：https://life2cloud.com。知乎主页：https://www.zhihu.com/people/life2cloud  
+### 曾海銮  
+复旦大学附属中山医院内分泌科，复旦大学人类表型组研究院，博士生  
+
+
