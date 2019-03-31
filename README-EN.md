@@ -7,9 +7,13 @@
 
 The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration Group in China.
 
+A brief introduction of openbiox members can be found [here](./members).
+
 The first version of the declaration of openbiox can be found [here](./declaration).
 
 Meeting minutes of openbiox can be found [here](./minutes).
+
+Routine of openbiox can be found [here](./routine).
 
 ## Maintainer
 

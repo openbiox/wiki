@@ -6,6 +6,8 @@
 
 这是中国第一个社区驱动的生物信息学创新协作组[openbiox](https://openbiox.org)的知识仓库。
 
+openbiox小组成员简介请见[这里](./members)。
+
 openbiox小组公约第一版请见[这里](./declaration)。
 
 openbiox小组例会纪要请见[这里](./minutes)。

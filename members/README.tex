@@ -1,0 +1,250 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={openbiox members},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{openbiox members}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\subsection{openbiox小组成员介绍（排名不分先后）}\label{openbiox}
+
+\subsubsection{李剑峰}
+
+openbiox小组发起人，生信技能树社区核心成员，是开源生物信息学和开放科学思想的坚定支持者、传播者和践行者。上海交通大学医学院附属瑞金医院，医学基因组学国家重点实验室，上海血液学研究所博士生，主要研究方向是生物信息学和白血病。\\
+\href{https://life2cloud.com}{个人博客} 和
+\href{https://www.zhihu.com/people/life2cloud}{知乎主页}
+
+\subsubsection{曾健明}
+
+在
+\href{http://www.bio-info-trainee.com/}{生信菜鸟团博客}坚持5年持续分享生物信息学相关领域技术知识;
+创办广为人知的
+\href{http://www.biotrainee.com/}{生信技能树论坛}，是目前全球最大的华语生物信息学专业论坛及公众号;
+已经培养了近1万名生信工程师，完成
+\href{https://space.bilibili.com/338686099}{全套生物信息学入门及进阶视频教程};
+目标
+\href{https://mp.weixin.qq.com/s/E9ykuIbc-2Ja9HOY0bn_6g}{培养10万名生信工程师},
+\href{https://static.dingtalk.com/media/lALPAuoR5z1wDQ3NA_DNAoA_640_1008.png}{2019全国巡讲至少到达60个城市}。
+
+\subsubsection{赵龙飞}
+
+郑州大学生物信息学博士
+
+\subsubsection{许志骁}
+
+华东理工大学在读博士。目前主要进行全基因组和比较基因组方面的分析。负责了实验室的服务器平台的搭建，构建了本课题组的数据分析流程。后期对实验室成员进行了生信相关技能的培训，发展了本课题组的生信团队。
+
+\subsubsection{张宇}
+
+本科期间主要研究方向为黄酮醇合成酶的功能验证；现为中国农业科学院硕士研究生，研究方向为代谢组与转录组联用的抗逆代谢调节物检测与验证，请见
+\href{https://orcid.org/0000-0001-8506-5222}{个人ORCID}
+
+\subsubsection{乔士达}
+
+上海药物研究所 药学硕士
+
+\subsubsection{王舒}
+
+复旦大学华山医院血液科博士
+
+\subsubsection{张佩}
+
+河北大学与国家蛋白质科学中心联合培养硕士研究生，在国家蛋白质科学中心学习3年。热爱科研，热爱写代码的科研码农。有理想有情怀有热情的，偶尔有些小文艺。
+
+\subsubsection{王琪}
+
+R语言办公，C语言生产
+
+\subsubsection{魏晨}
+
+大连医科大学 生物医学工程 本科
+
+\subsubsection{王灵}
+
+本科临床，硕士流统，目前基础，未来不知
+
+\subsubsection{包日强}
+
+上海交通大学医学院附属瑞金医院内分泌在读博士
+
+\subsubsection{贾敏}
+
+深圳瑞奥康晨科技有限公司 生信分析工程师
+
+\subsubsection{丁雨}
+
+哈尔滨医科大学 生物医学工程 硕士
+
+\subsubsection{王海濤}
+
+National Cancer Centre Singapore 新加坡國立癌症中心
+
+\subsubsection{陈颖珊}
+
+中国科学院在读博士
+
+\subsubsection{袁也}
+
+云南农业大学 植物病理学硕士
+
+\subsubsection{阚科佳}
+
+德国海德堡大学曼海姆医学院血管外科博士
+
+\subsubsection{杨芮}
+
+山西医科大学第二临床医学院外科学硕士研究生二年级
+
+\subsubsection{梁其云}
+
+山东大学海洋学院微生物学在读博士(一年级)
+
+\subsubsection{韩漾}
+
+中国科学院大学 生物信息学博士在读
+
+\subsubsection{郑东旭}
+
+广州医科大学附属第五医院
+
+\subsubsection{王淑轩}
+
+电子科技大学生物物理学硕士
+
+\subsubsection{王书喆}
+
+苏黎世联邦理工计算化学博士在读
+
+\subsubsection{赵清波}
+
+上海交通大学在读博士，研究方向统计基因组学与生物信息学，专注于遗传多样性保护理论与方法、选择信号、GWAS/GS算法模型开发与应用。热爱统计与编程，喜欢文学，乐于分享与传播。
+
+\subsubsection{曾鑫}
+
+东京大学计算生物学与医学硕士生在读
+
+\subsubsection{王诗翔}
+
+上海科技大学博士研究生，研究和开发癌症生物标志物
+
+\subsubsection{王义冠}
+
+澳大利亚昆士兰大学生物系在读博士
+
+\subsubsection{代雨婷}
+
+上海交通大学生物学博士
+
+\subsubsection{曾海銮}
+
+复旦大学附属中山医院内分泌科，复旦大学人类表型组研究院，博士生
+
+\subsubsection{姜思彤}
+
+东北农业大学作物遗传育种硕士
+
+\subsubsection{郭奕鑫}
+
+浙江大学医学院免疫所硕士
+
+\subsubsection{余超然}
+
+上海交通大学瑞金医院胃肠外科在读博士
+
+\subsubsection{熊逸}
+
+中南大学临床医学博士
+
+\subsubsection{张子颖}
+
+荷兰瓦赫宁恩大学生物信息学硕士
+
+\subsubsection{张楠}
+
+哈尔滨医科大学生物信息学硕士
+
+\subsubsection{王慧美}
+
+复旦大学神经生物学硕士
+
+
+\end{document}
