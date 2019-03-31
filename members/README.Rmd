@@ -12,8 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## openbiox小组成员介绍（排名不分先后）
 
 ### 李剑峰
-openbiox小组发起人，生信技能树社区核心成员，是开源生物信息学和开放科学思想的坚定支持者、传播者和践行者。上海交通大学医学院附属瑞金医院，医学基因组学国家重点实验室，上海血液学研究所博士生，主要研究方向是生物信息学和白血病。  
-[个人博客](https://life2cloud.com) 和 [知乎主页](https://www.zhihu.com/people/life2cloud) 
+openbiox小组发起人，生信技能树社区核心成员，是开源生物信息学和开放科学思想的坚定支持者、传播者和践行者。上海交通大学医学院附属瑞金医院，医学基因组学国家重点实验室，上海血液学研究所博士生，主要研究方向是生物信息学和白血病。请见 [个人博客](https://life2cloud.com) 和 [知乎主页](https://www.zhihu.com/people/life2cloud) 
 
 ### 曾健明  
 在 [生信菜鸟团博客](http://www.bio-info-trainee.com/)坚持5年持续分享生物信息学相关领域技术知识;
