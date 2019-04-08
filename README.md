@@ -14,10 +14,13 @@ openbiox小组例会纪要请见[这里](./minutes)。
 
 openbiox小组例行事项请见[这里](./routine)。
 
-openbiox 小组收支明细请见[这里](./)
+openbiox 小组资源池目前包括
+[经费收支明细](./resources/funds.md)、
+[项目团队](./resources/projects.md)、
+[设备](./resources/device.md)。
 
 ## 资助
-请扫以下二维码或通过银行卡（中国银行6217560800021643902，李剑峰）
+请扫以下二维码或通过银行卡（中国银行6217560800021643902，李剑峰）转账。
 
 ![资助](./QRcode.png)
 
