@@ -14,6 +14,13 @@ openbiox小组例会纪要请见[这里](./minutes)。
 
 openbiox小组例行事项请见[这里](./routine)。
 
+openbiox 小组收支明细请见[这里](./)
+
+## 资助
+请扫以下二维码或通过银行卡（中国银行6217560800021643902，李剑峰）
+
+![资助](./QRcode.png)
+
 ## 维护
 
  openbiox小组wiki分队
