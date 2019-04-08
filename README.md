@@ -15,9 +15,9 @@ openbiox小组例会纪要请见[这里](./minutes)。
 openbiox小组例行事项请见[这里](./routine)。
 
 openbiox 小组资源池目前包括
-[经费收支明细](./resources/funds.html)、
-[项目团队](./resources/projects.html)、
-[设备](./resources/device.html)。
+[经费收支明细](https://openbiox.github.io/openbiox-wiki/resources/funds.html)、
+[项目团队](https://openbiox.github.io/openbiox-wiki/resources/projects.html)、
+[设备](https://openbiox.github.io/openbiox-wiki/resources/device.html)。
 
 ## 资助
 请扫以下二维码或通过银行卡（中国银行6217560800021643902，李剑峰）转账。
