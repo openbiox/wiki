@@ -16,9 +16,9 @@ Meeting minutes of openbiox can be found [here](./minutes).
 Routine of openbiox can be found [here](./routine).
 
 Resources of openbiox currently includes
-[funds](./resources/funds.md),
-[projects](./resources/projects.md),
-[device](./resources/device.md).
+[funds](./resources/funds.html),
+[projects](./resources/projects.html),
+[device](./resources/device.html).
 
 ## Donate
 Please scan the following QR code with Alipay. Thank you!

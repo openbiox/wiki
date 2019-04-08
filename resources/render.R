@@ -54,6 +54,7 @@ projects[,3] <- sapply(projects[,3], function(x) {
   return(format(date, "%Y-%m-%d"))
 })
 
+
 # 设备
 device <- read.xlsx("20190404.xlsx", 3, colNames = F)
 colnames(device) <- device[2,]
