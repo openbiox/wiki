@@ -1,9 +1,11 @@
 # 设置下要操作的工作路径
-setwd("~/Documents/GitHub/openbiox-wiki/template")
+setwd("~/Documents/GitHub/openbiox-wiki/resources")
 
 library(rmarkdown)
 library(logging)
 library(sqldf)
+library(openxlsx)
+library(stringr)
 
 wiki_sqldf <- function(logger, x, ..., log_file="wiki_operation.log") {
   # 参数x: 	SQL语句
@@ -31,16 +33,52 @@ wiki_render <- function(tb, title, output_file, template_rmd="template.Rmd", htm
 }
 
 
-# 假设你现在已经清理好了数据，把它变成了data.frame
-# 这里随便创建一个数据
-tb <- data.frame(a = c(1:10), b = c(1:10), c = c(1:10))
+# 经费
+funds <- read.xlsx("20190404.xlsx", 1, colNames = F)
+colnames(funds) <- funds[3,]
+funds <- funds[c(-1,-2,-3),]
+funds[,6] <- as.numeric(funds[,6])
+funds[,1] <- as.numeric(funds[,1])
+funds[,1] <- sapply(funds[,1], function(x) {
+  date <- as.Date(x, origin = "1899-12-30")
+  return(format(date, "%Y-%m-%d"))
+})
 
-# 如果不需要进行修改，直接输出为表格形式 （第一次整理）
-TITLE <- "测试日志"
-wiki_render(tb, TITLE, "test_file.md", html_preview = TRUE) 
+# 项目团队
+projects <- read.xlsx("20190404.xlsx", 2, colNames = F)
+colnames(projects) <- projects[2,]
+projects <- projects[c(-1,-2),]
+projects[,3] <- as.numeric(projects[,3])
+projects[,3] <- sapply(projects[,3], function(x) {
+  date <- as.Date(x, origin = "1899-12-30")
+  return(format(date, "%Y-%m-%d"))
+})
+
+# 设备
+device <- read.xlsx("20190404.xlsx", 3, colNames = F)
+colnames(device) <- device[2,]
+device <- device[c(-1,-2),]
+device[,1] <- as.numeric(device[,1])
+device[,1] <- sapply(device[,1], function(x) {
+  date <- as.Date(x, origin = "1899-12-30")
+  return(format(date, "%Y-%m-%d"))
+})
+
+# 输出表格
+TITLE <- "openbiox经费收支记录"
+wiki_render(funds, TITLE, "funds.md", html_preview = TRUE) 
 # 这里会生成markdown文件，然后也设置预览, 查看生成的html文件
 # 然后将数据以RData格式保存
-save(tb, file="tb.RData")
+save(funds, file="funds.RData")
+
+TITLE <- "openbiox项目团队"
+wiki_render(projects, TITLE, "projects.md", html_preview = TRUE) 
+save(projects, file="projects.RData")
+
+TITLE <- "openbiox设备"
+wiki_render(device, TITLE, "device.md", html_preview = TRUE) 
+save(device, file="device.RData")
+
 
 # 如果需要更改（即进行更新）
 # 先使用wiki_sqldf函数
