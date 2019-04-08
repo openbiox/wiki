@@ -53,7 +53,9 @@ projects[,3] <- sapply(projects[,3], function(x) {
   date <- as.Date(x, origin = "1899-12-30")
   return(format(date, "%Y-%m-%d"))
 })
-
+projects[,9] <- sapply(projects[,9], function(x) {
+  gsub('*', '\\*', x, fixed = TRUE)
+})
 
 # 设备
 device <- read.xlsx("20190404.xlsx", 3, colNames = F)
