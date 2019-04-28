@@ -1,29 +1,28 @@
-
-# openbiox-wiki <img src="static/img/logo-long.png" align="right" alt="openbiox" width="200"/>
+# openbiox-wiki <img src="../static/img/logo-long.png" align="right" alt="openbiox" width="200"/>
 
 <img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
 
-[English Version](./README-EN.md)|[中文版](./README.md)
+[English Version](./) | [中文版](../)
 
-The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration Group in China.
+The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration group in China.
 
-A brief introduction of openbiox members can be found [here](./members).
+A brief introduction of openbiox members can be found [here](../zh/members).
 
-The first version of the declaration of openbiox can be found [here](./declaration).
+The first version of the declaration of openbiox can be found [here](../zh/declaration).
 
-Meeting minutes of openbiox can be found [here](./minutes).
+Meeting minutes of openbiox can be found [here](../zh/minutes).
 
-Routine of openbiox can be found [here](./routine).
+Routine of openbiox can be found [here](../zh/routine).
 
 Resources of openbiox currently includes
-[funds](https://openbiox.github.io/openbiox-wiki/resources/funds.html), 
-[projects](https://openbiox.github.io/openbiox-wiki/resources/projects.html),
-[device](https://openbiox.github.io/openbiox-wiki/resources/device.html).
+[funds](../zh/resources/funds), 
+[projects](../zh/resources/projects),
+[device](../zh/resources/device).
 
 ## Donate
 Please scan the following QR code with Alipay. Thank you!
 
-![资助](./QRcode.png)
+![资助](../static/img/QRcode.png)
 
 ## Maintainer
 
