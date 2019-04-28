@@ -1,17 +1,7 @@
----
-title: "routine"
-output:
-  md_document: default
-  latex_document: default
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# openbiox小组例行事项
+# 例行事项
 
 ## 常务委员会议
+
 - 两周一次，时间通常定在周六晚上20:30
 - 会前1-2天发放问卷
   - 周六或周日哪个时间段能够参加会议
@@ -23,4 +13,5 @@ knitr::opts_chunk$set(echo = TRUE)
 - 会后将会议纪要更新到 Wiki
 
 ## 项目进展汇报
+
 - 两周一次，与常务委员会议交替进行
