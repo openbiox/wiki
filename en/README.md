@@ -6,18 +6,18 @@
 
 The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration group in China.
 
-A brief introduction of openbiox members can be found [here](../zh/members).
+A brief introduction of openbiox members can be found [here](../members).
 
-The first version of the declaration of openbiox can be found [here](../zh/declaration).
+The first version of the declaration of openbiox can be found [here](../declaration).
 
-Meeting minutes of openbiox can be found [here](../zh/minutes).
+Meeting minutes of openbiox can be found [here](../minutes).
 
-Routine of openbiox can be found [here](../zh/routine).
+Routine of openbiox can be found [here](../routine).
 
 Resources of openbiox currently includes
-[funds](../zh/resources/funds), 
-[projects](../zh/resources/projects),
-[device](../zh/resources/device).
+[funds](../resources/funds), 
+[projects](../resources/projects),
+[device](../resources/device).
 
 ## Donate
 Please scan the following QR code with Alipay. Thank you!
