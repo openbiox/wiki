@@ -80,7 +80,8 @@ module.exports = {
                         children: [
                             '/events/routine/',
                             '/events/minutes/',
-                            '/events/history/'
+                            '/events/history/',
+                            '/events/projects/',
                         ]
                     },
                     {
