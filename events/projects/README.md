@@ -19,6 +19,9 @@
 - [openbiox-forum](https://github.com/openbiox/openbiox-forum)：openbiox 官方论坛
 - [Bioinformatics-Resources](https://github.com/openbiox/Bioinformatics-Resources)：收集一些生物信息学工具和学习资源
 - [CheckOverlap](https://github.com/Yiguan/CheckOverlap)：检查一个 SNP 位点是否包含在一段基因序列中
+- [bioshiny](https://github.com/openbiox/bioshiny)：基于 TOML 格式插件开发 Shiny 分析应用
+- [bioinformatics-100-days](https://github.com/openbiox/bioinformatics-100-days)：用 100 天的空余时间提高生物信息学数据分析技能
+- [golang-100-days](https://github.com/openbiox/golang-100-days)：用 100 天的时间学习和练习 Golang（为了云应用后台服务开发）
 
 ## 2019 年
 
