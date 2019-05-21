@@ -28,26 +28,37 @@ module.exports = {
                         buttonText: "Refresh"
                     }
                 },
+                nav: [
+                    { text: 'Wiki', link: '/' },
+                    {
+                        text: 'Extra',
+                        items: [
+                            { text: 'Home', link: 'https://openbiox.org/' },
+                            { text: 'Community', link: 'https://community.openbiox.org/' },
+                            { text: 'GitHub', link: 'https://github.com/openbiox/' },
+                        ]
+                    }
+                ],
                 algolia: {},
                 sidebar: [
-                  {
-                    title: 'Introduction',
-                    collapsable: true,
-                    children: [
-                    ]
-                  },
-                  {
-                    title: 'Events and history',
-                    collapsable: true,
-                    children: [
-                    ]
-                  },
-                  {
-                    title: 'Resources',
-                    collapsable: true,
-                    children: [
-                    ]
-                  },
+                    {
+                        title: 'Introduction',
+                        collapsable: true,
+                        children: [
+                        ]
+                    },
+                    {
+                        title: 'Events and history',
+                        collapsable: true,
+                        children: [
+                        ]
+                    },
+                    {
+                        title: 'Resources',
+                        collapsable: true,
+                        children: [
+                        ]
+                    },
                 ],
             },
             '/': {
@@ -63,6 +74,17 @@ module.exports = {
                         buttonText: "刷新"
                     }
                 },
+                nav: [
+                    { text: 'Wiki', link: '/' },
+                    {
+                        text: '其他链接',
+                        items: [
+                            { text: '主页', link: 'https://openbiox.org/' },
+                            { text: '社区', link: 'https://community.openbiox.org/' },
+                            { text: 'GitHub', link: 'https://github.com/openbiox/' },
+                        ]
+                    }
+                ],
                 // 当前 locale 的 algolia docsearch 选项
                 algolia: {},
                 sidebar: [
