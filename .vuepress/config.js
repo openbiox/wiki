@@ -35,7 +35,7 @@ module.exports = {
                         items: [
                             { text: 'Home', link: 'https://openbiox.org/' },
                             { text: 'Community', link: 'https://community.openbiox.org/' },
-                            { text: 'GitHub', link: 'https://github.com/openbiox/' },
+                            { text: 'Projects', link: 'https://openbiox.org/projects' },
                         ]
                     }
                 ],
@@ -45,6 +45,7 @@ module.exports = {
                         title: 'Introduction',
                         collapsable: true,
                         children: [
+                            '/en/declaration/'
                         ]
                     },
                     {
@@ -81,7 +82,7 @@ module.exports = {
                         items: [
                             { text: '主页', link: 'https://openbiox.org/' },
                             { text: '社区', link: 'https://community.openbiox.org/' },
-                            { text: 'GitHub', link: 'https://github.com/openbiox/' },
+                            { text: '项目', link: 'https://openbiox.org/projects' },
                         ]
                     }
                 ],

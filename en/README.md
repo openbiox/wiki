@@ -8,7 +8,7 @@ The knowledge repository of [openbiox](https://openbiox.org), a community-driven
 
 A brief introduction of openbiox members can be found [here](../members).
 
-The first version of the declaration of openbiox can be found [here](../declaration).
+The first version of the declaration of openbiox can be found [here](./declaration).
 
 Meeting minutes of openbiox can be found [here](../minutes).
 
