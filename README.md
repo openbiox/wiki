@@ -1,6 +1,6 @@
 # openbiox-wiki <img src="./static/img/logo-long.png" align="right" alt="openbiox" width="200"/>
 
-<img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/openbiox-wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/openbiox-wiki.svg" alt="issues"/>
+<img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"> <img src="https://img.shields.io/github/repo-size/openbiox/wiki.svg" alt="Repo size"/> <img src="https://img.shields.io/github/issues/openbiox/wiki.svg" alt="issues"/>
 
 [中文版](./) | [English Version](./en/)
 
@@ -33,7 +33,7 @@ openbiox 资源池目前包括
 
 ## 如何修改并提交贡献
 
-请 fork 该仓库[openbiox-wiki](https://github.com/openbiox/openbiox-wiki)，修改文件，确认无误后提交 Pull requests ，审核通过即可合并更新。
+请 fork 该仓库[wiki](https://github.com/openbiox/wiki)，修改文件，确认无误后提交 Pull requests ，审核通过即可合并更新。
 
 **注意事项：**
 
