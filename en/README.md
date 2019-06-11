@@ -4,7 +4,7 @@
 
 [English Version](./) | [中文版](../)
 
-The knowledge repository of [openbiox](https://openbiox.org), a community-driven bioinformatics innovation collaboration group.
+The knowledge repository of [openbiox](https://openbiox.org), a community-driven global bioinformatics innovation collaboration group.
 
 A brief introduction of openbiox members can be found [here](../members).
 
