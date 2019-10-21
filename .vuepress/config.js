@@ -44,9 +44,6 @@ module.exports = {
                     {
                         title: 'Introduction',
                         collapsable: true,
-                        children: [
-                            '/en/declaration/'
-                        ]
                     },
                     {
                         title: 'Events and history',
